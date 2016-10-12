@@ -1,9 +1,413 @@
 <!DOCTYPE html>
-<html>
+<!-- 
+Template Name: Metronic - Responsive Admin Dashboard Template build with Twitter Bootstrap 3.3.4
+Version: 3.8.1
+Author: KeenThemes
+Website: http://www.keenthemes.com/
+Contact: support@keenthemes.com
+Follow: www.twitter.com/keenthemes
+Like: www.facebook.com/keenthemes
+Purchase: http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes
+License: You must have a valid license purchased only from themeforest(the above link) in order to legally use the theme for your project.
+-->
+<!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9 no-js"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+<!--<![endif]-->
+<!-- BEGIN HEAD -->
 <head>
-  <title>Aaron Tolentino</title>
+<meta charset="utf-8"/>
+<title>Aaron Tolentino</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+<meta content="" name="description"/>
+<meta content="" name="author"/>
+<!-- BEGIN GLOBAL MANDATORY STYLES -->
+<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=all" rel="stylesheet" type="text/css"/>
+<link href="assets/global/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+<link href="assets/global/plugins/simple-line-icons/simple-line-icons.min.css" rel="stylesheet" type="text/css"/>
+<link href="assets/global/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+<link href="assets/global/plugins/uniform/css/uniform.default.css" rel="stylesheet" type="text/css"/>
+<link href="assets/global/plugins/bootstrap-switch/css/bootstrap-switch.min.css" rel="stylesheet" type="text/css"/>
+<!-- END GLOBAL MANDATORY STYLES -->
+<!-- BEGIN PAGE LEVEL STYLES -->
+<link href="assets/global/plugins/bootstrap-fileinput/bootstrap-fileinput.css" rel="stylesheet" type="text/css"/>
+<link href="assets/admin/pages/css/profile.css" rel="stylesheet" type="text/css"/>
+<link href="assets/admin/pages/css/tasks.css" rel="stylesheet" type="text/css"/>
+<!-- END PAGE LEVEL STYLES -->
+<!-- BEGIN THEME STYLES -->
+<link href="assets/global/css/components.css" id="style_components" rel="stylesheet" type="text/css"/>
+<link href="assets/global/css/plugins.css" rel="stylesheet" type="text/css"/>
+<link href="assets/admin/layout/css/layout.css" rel="stylesheet" type="text/css"/>
+<link id="style_color" href="assets/admin/layout/css/themes/darkblue.css" rel="stylesheet" type="text/css"/>
+<link href="assets/admin/layout/css/custom.css" rel="stylesheet" type="text/css"/>
+<!-- END THEME STYLES -->
+<link rel="shortcut icon" href="favicon.ico"/>
 </head>
-<body>
-Hello World
+<!-- END HEAD -->
+<!-- BEGIN BODY -->
+<!-- DOC: Apply "page-header-fixed-mobile" and "page-footer-fixed-mobile" class to body element to force fixed header or footer in mobile devices -->
+<!-- DOC: Apply "page-sidebar-closed" class to the body and "page-sidebar-menu-closed" class to the sidebar menu element to hide the sidebar by default -->
+<!-- DOC: Apply "page-sidebar-hide" class to the body to make the sidebar completely hidden on toggle -->
+<!-- DOC: Apply "page-sidebar-closed-hide-logo" class to the body element to make the logo hidden on sidebar toggle -->
+<!-- DOC: Apply "page-sidebar-hide" class to body element to completely hide the sidebar on sidebar toggle -->
+<!-- DOC: Apply "page-sidebar-fixed" class to have fixed sidebar -->
+<!-- DOC: Apply "page-footer-fixed" class to the body element to have fixed footer -->
+<!-- DOC: Apply "page-sidebar-reversed" class to put the sidebar on the right side -->
+<!-- DOC: Apply "page-full-width" class to the body element to have full width page without the sidebar menu -->
+<!-- BEGIN CONTAINER -->
+<div class="page-container">
+	<!-- BEGIN CONTENT -->
+	<div class="page-content-wrapper">
+		<div class="page-content">
+			<!-- BEGIN PAGE CONTENT-->
+			<div class="row" style="margin-top: 3px">
+				<div class="col-md-12">
+					<!-- BEGIN PROFILE SIDEBAR -->
+					<div class="profile-sidebar">
+						<!-- PORTLET MAIN -->
+						<div class="portlet light profile-sidebar-portlet">
+							<!-- SIDEBAR USERPIC -->
+							<div class="profile-userpic">
+								<img src="assets/admin/pages/media/profile/aaron.jpg" class="img-responsive" alt="">
+							</div>
+							<!-- END SIDEBAR USERPIC -->
+							<!-- SIDEBAR USER TITLE -->
+							<div class="profile-usertitle">
+								<div class="profile-usertitle-name">
+									 Aaron Tolentino
+								</div>
+								<div class="profile-usertitle-job">
+									 Backend Developer
+								</div>
+							</div>
+							<!-- END SIDEBAR USER TITLE -->
+							<!-- SIDEBAR BUTTONS -->
+							<div class="profile-userbuttons">
+								<a class="btn btn-circle green-haze btn-sm">Follow</button>
+								<a href="mailto:aarontolentino123@gmail.com" class="btn btn-circle btn-danger btn-sm">Message</a>
+							</div>
+							<!-- END SIDEBAR BUTTONS -->
+							<!-- SIDEBAR MENU -->
+							<!-- <div class="profile-usermenu">
+								<ul class="nav">
+									<li class="active">
+										<a href="extra_profile.html">
+										<i class="icon-home"></i>
+										Overview </a>
+									</li>
+									<li>
+										<a href="extra_profile_account.html">
+										<i class="icon-settings"></i>
+										Account Settings </a>
+									</li>
+									<li>
+										<a href="page_todo.html" target="_blank">
+										<i class="icon-check"></i>
+										Tasks </a>
+									</li>
+									<li>
+										<a href="extra_profile_help.html">
+										<i class="icon-info"></i>
+										Help </a>
+									</li>
+								</ul>
+							</div> -->
+							<!-- END MENU -->
+						</div>
+						<!-- END PORTLET MAIN -->
+						<!-- PORTLET MAIN -->
+						<div class="portlet light">
+							<!-- STAT -->
+							<!-- <div class="row list-separated profile-stat">
+								<div class="col-md-4 col-sm-4 col-xs-6">
+									<div class="uppercase profile-stat-title">
+										 37
+									</div>
+									<div class="uppercase profile-stat-text">
+										 Projects
+									</div>
+								</div>
+								<div class="col-md-4 col-sm-4 col-xs-6">
+									<div class="uppercase profile-stat-title">
+										 51
+									</div>
+									<div class="uppercase profile-stat-text">
+										 Tasks
+									</div>
+								</div>
+								<div class="col-md-4 col-sm-4 col-xs-6">
+									<div class="uppercase profile-stat-title">
+										 61
+									</div>
+									<div class="uppercase profile-stat-text">
+										 Uploads
+									</div>
+								</div>
+							</div> -->
+							<!-- END STAT -->
+							<div>
+								<h4 class="profile-desc-title">You can reach me at:</h4>
+								<div class="margin-top-20 profile-desc-link">
+									<i class="fa fa-mobile-phone"></i>
+									<span style="color: #5e6b7b;font-weight: 600;"> +639956522596 / 5046935</span>
+								</div>
+								<div class="margin-top-20 profile-desc-link">
+									<i class="fa fa-google"></i>
+									<a href="mailto:aarontolentino123@gmail.com">aarontolentino123@gmail.com</a>
+								</div>
+								<div class="margin-top-20 profile-desc-link">
+									<i class="fa fa-linkedin"></i>
+									<a href="https://ph.linkedin.com/in/aaron-paul-tolentino-a7183661">aarontolentino</a>
+								</div>
+								<div class="margin-top-20 profile-desc-link">
+									<i class="fa fa-twitter"></i>
+									<a href="http://www.twitter.com/keenthemes/">@aaron_manong</a>
+								</div>
+								<div class="margin-top-20 profile-desc-link">
+									<i class="fa fa-facebook"></i>
+									<a href="https://www.facebook.com/aaron.manong">/aaron.manong</a>
+								</div>
+							</div>
+						</div>
+						<!-- END PORTLET MAIN -->
+					</div>
+					<!-- END BEGIN PROFILE SIDEBAR -->
+					<!-- BEGIN PROFILE CONTENT -->
+					<div class="profile-content">
+						<div class="row">
+							<div class="col-md-6">
+								<!-- BEGIN PORTLET -->
+								<div class="portlet light ">
+									<div class="portlet-title">
+										<div class="caption caption-md">
+											<i class="icon-bar-chart theme-font hide"></i>
+											<span class="caption-subject font-blue-madison bold uppercase">Summary of Skils</span>
+										</div>
+									</div>
+									<div class="portlet-body" style="padding-top: 0px">
+										<div style="margin-left: 3%">
+											<ul class="list-unstyled">
+												<li><h4>Scripting Language</h4></li>
+												<li>
+													<ul class="list-unstyled list-custom-aaron">
+														<li><i class="fa fa-arrow-right" style="color: #adadad;"></i> PHP – 4 Years (advance) </li>
+														<li><i class="fa fa-arrow-right" style="color: #adadad;"></i> Javascript(JQuery) – 4 Years(advance)</li>
+														<li><i class="fa fa-arrow-right" style="color: #adadad;"></i> NODE.JS – 1 Year(knowledgeable)</li>
+														<li><i class="fa fa-arrow-right" style="color: #adadad;"></i> Angular – 1 Year(knowledgeable)</li>
+														<li>
+															<i class="fa fa-arrow-right" style="color: #adadad;"></i> Open Source PHP Frameworks:
+															<ul class="list-unstyled list-custom-aaron">
+																<li><i class="fa fa-arrow-right" style="color: #adadad;"></i> Laravel 5.0 and above – 1 Year(Intermediate)</li>
+																<li><i class="fa fa-arrow-right" style="color: #adadad;"></i> Codeigniter – 1 Year(Intermediate)</li>
+															</ul>
+														</li>
+													</ul>
+												</li>
+												<li><h4>Database</h4></li>
+												<li>
+													<ul class="list-unstyled list-custom-aaron">
+														<li><i class="fa fa-arrow-right" style="color: #adadad;"></i>MySQL – 4 Years (advance)</li>
+														<li><i class="fa fa-arrow-right" style="color: #adadad;"></i>MSSQL – 1 Year (knowledgeable)</li>
+														<li><i class="fa fa-arrow-right" style="color: #adadad;"></i>MS ACCESS – 1 Year (knowledgeable)</li>
+														<li><i class="fa fa-arrow-right" style="color: #adadad;"></i>PostgreSQL – 1 Year (knowledgeable)</li>
+													</ul>
+												</li>
+												<li><h4>Programming Language / Mobile</h4></li>
+												<li>
+													<ul class="list-unstyled list-custom-aaron">
+														<li><i class="fa fa-arrow-right" style="color: #adadad;"></i> Android(Java), Ionic – below 1 Year (knowledgeable)</li>
+														<li><i class="fa fa-arrow-right" style="color: #adadad;"></i> VB.NET, VB 6.0, C++ – below 1 Year (knowledgeable)</li>
+													</ul>
+												</li>
+												<li><h4>Content Management System</h4></li>
+												<li>
+													<ul class="list-unstyled list-custom-aaron">
+														<li><i class="fa fa-arrow-right" style="color: #adadad;"></i> WordPress – below 1 Year (knowledgeable)</li>
+														<li><i class="fa fa-arrow-right" style="color: #adadad;"></i> Drupal – below 1 Year (knowledgeable)</li>
+													</ul>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<!-- END PORTLET -->
+							</div>
+							<div class="col-md-6">
+								<!-- BEGIN PORTLET -->
+								<div class="portlet light ">
+									<div class="portlet-title">
+										<div class="caption caption-md">
+										</div>
+									</div>
+									<div class="portlet-body" style="padding-top: 0px">
+										<div style="margin-left: 3%">
+											<ul class="list-unstyled">
+												<li><h4>IDE</h4></li>
+												<li>
+													<ul class="list-unstyled list-custom-aaron">
+														<li><i class="fa fa-arrow-right" style="color: #adadad;"></i> Dreamweaver, Notepad++, Sublime, Netbeans </li>
+														<li><i class="fa fa-arrow-right" style="color: #adadad;"></i> MySQL Workbench, phpMyAdmin, HeidiSQL</li>
+														<li><i class="fa fa-arrow-right" style="color: #adadad;"></i> Eclipse(Android Java)</li>
+													</ul>
+												</li>
+												<li><h4>Caching Server</h4></li>
+												<li>
+													<ul class="list-unstyled list-custom-aaron">
+														<li><i class="fa fa-arrow-right" style="color: #adadad;"></i> Redis – 1 Year(knowledgeable)</li>
+														<li><i class="fa fa-arrow-right" style="color: #adadad;"></i> MemcacheD – 1 Year (knowledgeable)</li>
+													</ul>
+												</li>
+												<li><h4>Web Server/Stack</h4></li>
+												<li>
+													<ul class="list-unstyled list-custom-aaron">
+														<li><i class="fa fa-arrow-right" style="color: #adadad;"></i> WappStak – 1 Year(knowledgeable)</li>
+														<li><i class="fa fa-arrow-right" style="color: #adadad;"></i> WAMP, LAMP, XAMPP – 4 Year (advance)</li>
+													</ul>
+												</li>
+												<li><h4>Operating System</h4></li>
+												<li>
+													<ul class="list-unstyled list-custom-aaron">
+														<li><i class="fa fa-arrow-right" style="color: #adadad;"></i> Linux(Ubuntu, Centos, Redhat) – 2 Year(knowledgeable)</li>
+														<li><i class="fa fa-arrow-right" style="color: #adadad;"></i> Windows – 4 Year(knowledgeable)</li>
+													</ul>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<!-- END PORTLET -->
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-12">
+								<!-- BEGIN PORTLET -->
+								<div class="portlet light">
+									<div class="portlet-title">
+										<div class="caption caption-md">
+											<i class="icon-bar-chart theme-font hide"></i>
+											<span class="caption-subject font-blue-madison bold uppercase">Employment Summary</span>
+											<span class="caption-helper">Total of 3</span>
+										</div>
+									</div>
+									<div class="portlet-body" style="padding-top: 0px">
+									</div>
+								</div>
+								<!-- END PORTLET -->
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-12">
+								<!-- BEGIN PORTLET -->
+								<div class="portlet light">
+									<div class="portlet-title">
+										<div class="caption caption-md">
+											<i class="icon-bar-chart theme-font hide"></i>
+											<span class="caption-subject font-blue-madison bold uppercase">Work Experience and Responsibilities</span>
+										</div>
+									</div>
+									<div class="portlet-body" style="padding-top: 0px">
+									</div>
+								</div>
+								<!-- END PORTLET -->
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-12">
+								<!-- BEGIN PORTLET -->
+								<div class="portlet light">
+									<div class="portlet-title">
+										<div class="caption caption-md">
+											<i class="icon-bar-chart theme-font hide"></i>
+											<span class="caption-subject font-blue-madison bold uppercase">Other Skills and Informations</span>
+										</div>
+									</div>
+									<div class="portlet-body" style="padding-top: 0px">
+									</div>
+								</div>
+								<!-- END PORTLET -->
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-12">
+								<!-- BEGIN PORTLET -->
+								<div class="portlet light">
+									<div class="portlet-title">
+										<div class="caption caption-md">
+											<i class="icon-bar-chart theme-font hide"></i>
+											<span class="caption-subject font-blue-madison bold uppercase">Personal Information</span>
+										</div>
+									</div>
+									<div class="portlet-body" style="padding-top: 0px">
+									</div>
+								</div>
+								<!-- END PORTLET -->
+							</div>
+						</div>
+					</div>
+					<!-- END PROFILE CONTENT -->
+				</div>
+			</div>
+			<!-- END PAGE CONTENT-->
+		</div>
+	</div>
+	<!-- END CONTENT -->
+</div>
+<!-- END CONTAINER -->
+<!-- BEGIN FOOTER -->
+<div class="page-footer">
+</div>
+<!-- END FOOTER -->
+<!-- BEGIN JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
+<!-- BEGIN CORE PLUGINS -->
+<!--[if lt IE 9]>
+<script src="assets/global/plugins/respond.min.js"></script>
+<script src="assets/global/plugins/excanvas.min.js"></script> 
+<![endif]-->
+<script src="assets/global/plugins/jquery.min.js" type="text/javascript"></script>
+<script src="assets/global/plugins/jquery-migrate.min.js" type="text/javascript"></script>
+<!-- IMPORTANT! Load jquery-ui.min.js before bootstrap.min.js to fix bootstrap tooltip conflict with jquery ui tooltip -->
+<script src="assets/global/plugins/jquery-ui/jquery-ui.min.js" type="text/javascript"></script>
+<script src="assets/global/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="assets/global/plugins/bootstrap-hover-dropdown/bootstrap-hover-dropdown.min.js" type="text/javascript"></script>
+<script src="assets/global/plugins/jquery-slimscroll/jquery.slimscroll.min.js" type="text/javascript"></script>
+<script src="assets/global/plugins/jquery.blockui.min.js" type="text/javascript"></script>
+<script src="assets/global/plugins/jquery.cokie.min.js" type="text/javascript"></script>
+<script src="assets/global/plugins/uniform/jquery.uniform.min.js" type="text/javascript"></script>
+<script src="assets/global/plugins/bootstrap-switch/js/bootstrap-switch.min.js" type="text/javascript"></script>
+<!-- END CORE PLUGINS -->
+<!-- BEGIN PAGE LEVEL PLUGINS -->
+<script src="assets/global/plugins/bootstrap-fileinput/bootstrap-fileinput.js" type="text/javascript"></script>
+<script src="assets/global/plugins/jquery.sparkline.min.js" type="text/javascript"></script>
+<!-- END PAGE LEVEL PLUGINS -->
+<!-- BEGIN PAGE LEVEL SCRIPTS -->
+<script src="assets/global/scripts/metronic.js" type="text/javascript"></script>
+<script src="assets/admin/layout/scripts/layout.js" type="text/javascript"></script>
+<script src="assets/admin/layout/scripts/quick-sidebar.js" type="text/javascript"></script>
+<script src="assets/admin/layout/scripts/demo.js" type="text/javascript"></script>
+<script src="assets/admin/pages/scripts/profile.js" type="text/javascript"></script>
+<!-- END PAGE LEVEL SCRIPTS -->
+<script>
+jQuery(document).ready(function() {       
+   // initiate layout and plugins
+   Metronic.init(); // init metronic core components
+Layout.init(); // init current layout
+QuickSidebar.init(); // init quick sidebar
+Demo.init(); // init demo features
+Profile.init(); // init page demo
+});
+</script>
+<!-- END JAVASCRIPTS -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-37564768-1', 'keenthemes.com');
+  ga('send', 'pageview');
+</script>
 </body>
+<!-- END BODY -->
 </html>
